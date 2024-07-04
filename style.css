@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 :root{
-    --cor-fundo: #01080E ; 
-    --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
+    --cor-fundo: #042003; 
+    --cor-principal: #203d28;
+    --cor-secundaria: #12b4737a;
+    --cor-destaque: #9df85c;
     --cor-texto: #D7f9ff;
 }
 
 body {
-    background-color: var(--cor-fundo);
+    background-image: url('nativa.jpg');
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
@@ -22,7 +22,9 @@ body {
     width: 90%;
     max-width: 600px;
     text-align: center;
-    padding: 20px;
+    padding: 18px;
+    border: none;
+    border-radius: 15px;
 }
 
 .caixa-perguntas {
@@ -31,6 +33,7 @@ body {
 
 h1{
     color: var(--cor-destaque);
+    font-size: 40px;
 }
 
 button{

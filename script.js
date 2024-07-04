@@ -7,7 +7,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
       enunciado:
-        "Com as constantes inovações no cenário tecnológico e o agravamento dos impactos climáticos, você considera a inteligência articial uma aliada ou inimiga do meio ambiente?",
+        "Com as constantes inovações no cenário tecnológico e o agravamento dos impactos climáticos, você considera a inteligência artificial uma aliada ou inimiga do meio ambiente?",
       alternativas: [
         {
           texto: "É uma forte aliada",
@@ -46,7 +46,7 @@ const perguntas = [
         },
         {
           texto:
-            "Poderia ser um ótimo investimento em várias cidades, tanto em cidades pequenas que ajudaria a alavancar o crescimento, quanto para grandes cidades que enfrentam problemas ambientais urbanos, tais como poluição, ilhas de calor, inversão térmica.",
+            "Poderia ser um ótimo investimento em várias cidades, tanto em cidades pequenas que ajudaria a alavancar o crescimento, quanto para grandes cidades que enfrentam problemas ambientais urbanos, tais como poluição, ilhas de calor, inversão térmica",
           afirmacao: "afirmação",
         },
       ],
@@ -57,12 +57,12 @@ const perguntas = [
       alternativas: [
         {
           texto:
-            "Seria viável, pois a proteção de espécies ameaçadas é crucial para a biodiversidade e a saúde dos ecossistemas.",
+            "Seria viável, pois a proteção de espécies ameaçadas é crucial para a biodiversidade e à saúde dos ecossistemas",
           afirmacao: "afirmação",
         },
         {
           texto: 
-            "Não, a infraestrutura tecnológica necessária pode ter impactos ambientais que prejudicam outros aspectos do meio ambiente.",
+            "Não, a infraestrutura tecnológica necessária pode ter impactos ambientais que prejudicam outros aspectos do meio ambiente",
           afirmacao: "afirmação",
         },
       ],
@@ -73,12 +73,12 @@ const perguntas = [
       alternativas: [
         {
           texto:
-            "Não, uma vez que a situação está em estado crítico, na qual as chances de reverter o cenário catastrófico são baixíssimas e as IA podem até mesmo intensificar o processo.",
+            "Não, uma vez que a situação está em estado crítico, na qual as chances de reverter o cenário catastrófico são baixíssimas e as IA podem até mesmo intensificar o processo",
           afirmacao: "afirmação",
         },
         {
           texto:
-            "Sim, ainda há esperança que as IA possam reverter o contexto exposto, propondo soluções e analisando dados, por exemplo mapear o impacto do desmatamento e calcular o derretimento de geleiras.",
+            "Sim, ainda há esperança que as IA possam reverter o contexto exposto, propondo soluções e analisando dados, por exemplo mapear o impacto do desmatamento e calcular o derretimento de geleiras",
           afirmacao: "afirmação",
         },
       ],
@@ -119,7 +119,7 @@ function respostaSelecionada(opcaoSelecionada){
 function mostraResultado(){
   caixaPerguntas.textContent = "Em 2049...";
   textoResultado.textContent = historiaFinal;
-  caixaAlternativas.textContent = " ";
+  caixaAlternativas.textContent = "Será um futuro dominado pela inteligência artificial?";
 }
 
 mostraPergunta();
